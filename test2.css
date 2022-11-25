@@ -6,8 +6,10 @@
     text-decoration: none;
 }
 
-.logo a{
+.logo a:hover{
   text-decoration: none;
+  color: violet;
+  
 }
 
 .img{
@@ -102,4 +104,9 @@ display: block;
   grid-template-columns: auto auto;
   grid-gap: 5px;
   max-width: 50%;
+}
+
+.object-move{
+  margin: right;
+  width: 190vh;
 }
