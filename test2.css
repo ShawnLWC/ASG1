@@ -11,13 +11,12 @@
 }
 
 .img{
-    max-width: 100%;
-    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
 
 .background-image{
-    background-image: url("lamborghini-lbun8b8ehlv3j8to.jpeg");
-    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
