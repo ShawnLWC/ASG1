@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .logo{
     cursor: pointer;
     margin-right: auto;
+    text-decoration: none;
+}
+
+.logo a{
+  text-decoration: none;
 }
 
 .img{
@@ -58,9 +65,10 @@ display: block;
 .dropdown:hover .dropbtn {background-color: goldenrod;}
 
 .title{
-    color: white;
+    color: greenyellow;
     margin:20px;
     text-align: center;
+    font-family: 'Anton', sans-serif;
 }
 
 
@@ -79,4 +87,20 @@ display: block;
 
 .nav_links li a:hover{
   color: #ceae8c;
+}
+
+.search{
+  align-items: center;
+}
+
+.hyperlinks{
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+.img-grid{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  max-width: 50%;
 }
