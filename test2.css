@@ -1,22 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
 
 .logo{
     cursor: pointer;
     margin-right: auto;
     text-decoration: none;
+    color: goldenrod;
 }
 
-.logo a:hover{
+.logo:hover{
   text-decoration: none;
-  color: violet;
+  color: #ceae8c;
   
 }
 
 .img{
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  object-position: 50% 100%;
 }
+
+.img2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.img3{
+  display: block;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 500px;
+  padding: 40px;
+}
+
 
 .background-image{
     background-repeat: no-repeat;
@@ -66,10 +86,31 @@ display: block;
 .dropdown:hover .dropbtn {background-color: goldenrod;}
 
 .title{
-    color: greenyellow;
-    margin:20px;
-    text-align: center;
+    color: darkturquoise;
+    margin: 30px;
     font-family: 'Anton', sans-serif;
+    top: 50%;
+    left: 100%;
+    transform: translate(-80%, -50%);
+}
+
+.title-2{
+  color: darkcyan;
+  margin: 30px;
+  font-family:'Montserrat', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -30%);
+}
+
+.searchbox{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+ 
+  
 }
 
 
@@ -95,8 +136,15 @@ display: block;
 }
 
 .hyperlinks{
-  text-decoration: underline;
+  text-decoration: none;
   font-size: x-large;
+  display: block;
+  box-sizing: border-box;
+  color: lightcoral;
+}
+
+.hyperlinks:hover{
+  color: beige;
 }
 
 .img-grid{
@@ -107,6 +155,10 @@ display: block;
 }
 
 .object-move{
-  margin: right;
-  width: 190vh;
+  border: 2px solid #9f8f7c;
+}
+
+.test{
+  position: absolute;
+  left: 105px;
 }
