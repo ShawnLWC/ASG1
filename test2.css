@@ -33,8 +33,9 @@
   display: block;
   background-attachment: fixed;
   background-size: cover;
-  width: 500px;
-  padding: 40px;
+  width: 420px;
+  height: 265px;
+  padding: 30px;
 }
 
 
@@ -106,11 +107,9 @@ display: block;
 
 .searchbox{
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -30%);
- 
-  
 }
 
 
@@ -161,4 +160,19 @@ display: block;
 .test{
   position: absolute;
   left: 105px;
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
