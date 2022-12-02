@@ -6,6 +6,7 @@
     margin-right: auto;
     text-decoration: none;
     color: goldenrod;
+    padding: 18px;
 }
 
 .logo:hover{
@@ -27,15 +28,23 @@
   background-attachment: fixed;
   background-size: cover;
   opacity: 0.5;
+  
 }
 
 .img3{
+  background-attachment: fixed;
+  max-width: 35%;
+  height: 265px;
+  justify-content: space-evenly;
+}
+
+.img4{
   display: block;
   background-attachment: fixed;
   background-size: cover;
-  width: 420px;
+  max-width: 50%;
   height: 265px;
-  padding: 30px;
+  padding: 20px;
 }
 
 
@@ -87,7 +96,7 @@ display: block;
 .dropdown:hover .dropbtn {background-color: goldenrod;}
 
 .title{
-    color: darkturquoise;
+    color: beige;
     margin: 30px;
     font-family: 'Anton', sans-serif;
     top: 50%;
@@ -96,18 +105,19 @@ display: block;
 }
 
 .title-2{
-  color: darkcyan;
+  color: black;
   margin: 30px;
   font-family:'Montserrat', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-80%, -30%);
+  font-size: 18px;
 }
 
 .searchbox{
   position: absolute;
-  top: 35%;
+  top: 32%;
   left: 50%;
   transform: translate(-50%, -30%);
 }
@@ -159,20 +169,122 @@ display: block;
 
 .test{
   position: absolute;
-  left: 105px;
-  flex: 33.33%;
+  left: 38px;
   padding: 5px;
+  top: 160%;
+  left: 2.5%;
+  justify-content: space-evenly;
 }
 
+.test2{
+  position: absolute;
+  left: 38px;
+  padding: 5px;
+  top: 160%;
+  left: 38.5%;
+}
 
+.test3{
+  position: absolute;
+  left: 10px;
+  padding: 5px;
+  top: 200%;
+  left: 73.5%;
+}
+
+.description{
+  flex-basis: 45%;
+
+}
 
 
 .row {
   display: flex;
+  justify-content: space-evenly;
 }
 
 /* Create three equal columns that sits next to each other */
 .column {
   flex: 33.33%;
   padding: 5px;
+}
+
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  border: 2px soli green;
+}
+
+.split{
+  flex-basis: 45%;
+}
+
+
+
+
+
+
+
+
+/* testing */
+
+.flex-container{
+  flex-basis: auto;
+  display: flex;
+  flex-flow:column wrap;
+  flex-direction: row;
+  /* border: aqua solid 15px;  */
+}
+
+.flex-container{
+  justify-content: space-evenly;
+}
+
+.info{
+  color: white;
+  /* padding-left: 50px; */
+}
+
+.heading{
+  text-decoration: underline;
+  /* padding: 30px; */
+  /* padding-left: 50px; */
+  color: #daa46b;
+} 
+
+
+
+
+.img_reel{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  grid-auto-rows: 240px;
+}
+
+.img{
+  max-width: 100%;
+  height: auto;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: #353535; */
+  font-size: 3rem;
+  color: #fff;
+  /* box-shadow: rgba(3,8,20,0.1) 0px 0.15rem 0.5rem, rgba(2,8,20,0.1) 0px 0.075rem 0.175rem; */
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 500ms;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
