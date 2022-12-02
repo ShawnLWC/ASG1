@@ -1,0 +1,35 @@
+.flex-container{
+    flex-basis: auto;
+    display: flex;
+    flex-flow:column wrap;
+    border: aqua solid 15px;  
+}
+
+.flex-container{
+    justify-content: space-evenly;
+}
+
+.flex{
+    display: flex;
+}
+
+.info{
+    color: white;
+    /* padding-left: 50px; */
+}
+
+.heading{
+    text-decoration: underline;
+    /* padding: 30px; */
+    /* padding-left: 50px; */
+    color: #daa46b;
+}
+
+#main {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    justify-content:space-evenly; 
+    
+  }
