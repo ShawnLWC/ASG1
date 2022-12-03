@@ -42,7 +42,7 @@
   display: block;
   background-attachment: fixed;
   background-size: cover;
-  max-width: 50%;
+  max-width: 100%;
   height: 265px;
   padding: 20px;
 }
@@ -171,17 +171,16 @@ display: block;
   position: absolute;
   left: 38px;
   padding: 5px;
-  top: 160%;
-  left: 2.5%;
-  justify-content: space-evenly;
+  bottom: -62%;
+  left: 42%;
 }
 
 .test2{
   position: absolute;
   left: 38px;
   padding: 5px;
-  top: 160%;
-  left: 38.5%;
+  bottom: 0%;
+  left: 15%;
 }
 
 .test3{
@@ -201,6 +200,7 @@ display: block;
 .row {
   display: flex;
   justify-content: space-evenly;
+  position: relative;
 }
 
 /* Create three equal columns that sits next to each other */
