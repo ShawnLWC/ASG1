@@ -2,7 +2,8 @@
     flex-basis: auto;
     display: flex;
     flex-flow:column wrap;
-    border: aqua solid 15px;  
+    flex-direction: row;
+    border: aqua solid 3px; 
 }
 
 .flex-container{
@@ -32,4 +33,15 @@
     display: flex;
     justify-content:space-evenly; 
     
-  }
+}
+
+.img-with-text {
+    text-align: center;
+    width: 100px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+    
+}
