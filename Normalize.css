@@ -171,11 +171,11 @@ display: block;
   border: 2px solid #9f8f7c;
 }
 
-.test{
+.text{
   position: absolute;
   padding: 5px;
-  bottom: -64%;
-  left: 43%;
+  bottom: -61%;
+  left: 40%;
 }
 
 .description{
