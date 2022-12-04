@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href = "test2.css" rel = "stylesheet" type = "text/css">
+    <link href = "Normalize.css" rel = "stylesheet" type = "text/css">
 </head>
 
 <body style="background-color: #383838 ;">
     <header style="background-color: black">
         <h1>
           <a href="index.html" class="logo">
-            4Wheels.com
+            4Wheels
           </a>
             
         </h1>
@@ -88,9 +88,63 @@
                 <h2 style="font-size: x-large;">
                   Singapore 994888
                 </h2>
+                <br>
+                <br>
+                <br>
 
 
               </header>
+
+
+
+              <div>
+                <h1>Book a consult with our specialist</h1>
+            </div>
+            <br>
+            <form onsubmit = "handleLogin(e)">
+                <div>
+                    <label for = 'Name'> Name:
+                        <input name = 'name' type = "text" placeholder = "Enter Name" id = "Name" required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for = 'Contact'> Contact:
+                        <input name = 'contact' type = "tel" placeholder = "Enter Contact" id = "Contact" required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for = 'Pax'>Pax:
+                        <input type = 'number' name = 'pax' id = 'Pax' required>
+                    </label>
+                </div>
+        
+                <br>
+                <div>
+                    <label for = 'Date'>
+                        Date:
+                        
+                        <input type = 'date' id = 'Date' name = 'date' required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>
+                        Time:
+                        
+                        <input type = 'time' name = 'time' id = 'Time' required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        
+            <script src="Booking.js">
+            </script>
+        </body>
 
 
 

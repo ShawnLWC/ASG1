@@ -1,169 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVE</title>
+    <link href = "../css-files/normalize.css" rel = "stylesheet" type = "text/css">
+    <link href = "../css-files/base.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+    <header>
+        <img class = 'logo' src = "../logos/PACE.jpg" alt = 'logo'>
+        <nav>
+            <ul class="nav_links">
+                <li><a href = 'http://127.0.0.1:5500/ID-Assignment1/html-files/index.html'>Home</a></li>
+                <li><a class="active" href="http://127.0.0.1:5500/ID-Assignment1/html-files/menu.html">Menu</a></li>
+                <li><a href="http://127.0.0.1:5500/ID-Assignment1/html-files/reserve.html">Reserve</a></li>
+            </ul> 
+        </nav>
+        <button><a class="cta" href="http://127.0.0.1:5500/ID-Assignment1/html-files/contact.html">Contact</a></button>
+    </header>
+    <div class ='banner'>
+        <img src = '../logos/restaurantlogo.jpg' alt = 'Banner'>
+    </div>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href = "test.css" rel = "stylesheet" type = "text/css">
-    </head>
+    <div class = 'title'>
+        <h1>Reserve A Seat !</h1>
+    </div>
 
-    <!---<body class="flex">
-        <img class="flex-container" src="/Volumes/USB DRIVE/Sem 2/ID/ASG1_Stuff/ASG1_test code/Img/BMW_x6_2.jpeg">
-        <img class="flex-container" src="/Volumes/USB DRIVE/Sem 2/ID/ASG1_Stuff/ASG1_test code/Img/Range Rover.jpeg">
-    </body> --->
-
-
-
-
-
-<!------ style="display: flex; padding-left: 20px; justify-content: space-evenly;" --->
-
-
-<!--- <div class = 'flex-container'>
-        
-    <div class = 'container'>
-        <h1 class = 'heading'>
-            Weekday
-        </h1>
-        <div class = 'menu'>
-            <h2>Breakfast</h2>
-            <br>
-            Pax: Any
-            <br>
-            4 Course Energizing Meal
-            <br>
-            To Start The Day.
-            <br>
-            $48++/Pax
-            <br>
-            <br>
-  
-            <h2>Lunch</h2>
-            <br>
-            Pax: Any
-            <br>
-            Scrumptious 5 Course Lunch
-            <br>
-            Made Using Freshly Air Flown Ingredients.
-            <br>
-            $88++/Pax
-            <br>
-            <br>
-  
-            <h2>Dinner</h2>
-            <br>
-            Pax: 2/5
-            <br>
-            Atmospheric 8 Course Dinner To End
-            <br>
-            The Day.
-            <br>
-            $128++/Pax
-            <br>
-            <br>
+    <form onsubmit = "handleLogin(event)">
+        <div>
+            <label class = 'label' for = 'Name'> Name:
+                <input name = 'name' type = "text" placeholder = "Enter Name" id = "Name" required>
+            </label>
         </div>
-    </div>
-    <div class = 'container'>
-        <h1 class = 'heading'>
-            Weekend
-        </h1>
-        <div class = 'menu'>
-            <h2>Breakfast</h2>
-            <br>
-            Pax: Any
-            <br>
-            Fun And Delicious 4 Course
-            <br>
-            Breakfast Fit For A Weekend
-            <br>
-            $58++/Pax
-            <br>
-            <br>
-  
-            <h2>Lunch</h2>
-            <br>
-            Pax: Any
-            <br>
-            Satisfying 6 Course Lunch Using
-            <br>
-            Only Self-Grown, Freshly Procured
-            <br>
-            Ingredients.
-            <br>
-            $108++/Pax
-            <br>
-            <br>
-  
-            <h2>Dinner</h2>
-            <br>
-            Pax: 2/5
-            <br>
-            Atmospheric 8 Course Dinner To End
-            <br>
-            The Day
-            <br>
-            $148++/Pax
-            <br>
-            <br>
-  
+        <br>
+        <div>
+            <label class = 'label' for = 'Contact'> Contact:
+                <input name = 'contact' type = "tel" placeholder = "Enter Contact" id = "Contact" required>
+            </label>
         </div>
-    </div>
-  
-    <div class = "container">
-        <h1 class = 'heading' style = 'color:white;'>Operating Hours</h1>
-        <div class = 'info'>
-            Mon - Wed: 11.30am - 10pm
-            <br>
-            Thu - Fri: 11.30am - 11pm
-            <br>
-            Sat: 8.30am - 11pm
-            <br>
-            Sun: 8.30am - 10pm
-            <br>
-            <br>
-            <h2 style = 'text-decoration: underline; color: white;'>Location</h2>
-            <br>
-            L1-81, The Shoppes
-            <br>
-            Nearest carpark: South (Blue zone)
-            <br>
-            <br>
-            <h2 style = 'text-decoration: underline; color: white;'>Dress Code</h2>
-            Smart Casual
-            <br>
-            <br>
+        <br>
+        <div>
+            <label class = 'label' for = 'Pax'>Pax:
+                <input type = 'number' name = 'pax' id = 'Pax' required>
+            </label>
         </div>
-    </div>
-  </div>
-  
-  </html> --->
-  
-  
-  
-  <!--- <div class = 'img_reel'>
-    <div class = 'card'>
-        <img class = 'img' src = '/Volumes/USB DRIVE/Sem 2/ID/ASG1_Stuff/ASG1_test code/Img/Range Rover.jpeg' alt = 'foodimg'>
-    </div>
-    <div class = 'card'>
-        <img class = 'img' src = '/Volumes/USB DRIVE/Sem 2/ID/ASG1_Stuff/ASG1_test code/Img/Lexus_RX.jpeg' alt = 'foodimg'>
-    </div>
-    <div class = 'card'>
-        <img class = 'img' src = '/Volumes/USB DRIVE/Sem 2/ID/ASG1_Stuff/ASG1_test code/Img/Porsche2 pic.png' alt = 'foodimg'>
-    </div>
-    <div class = 'card'>
-        <img class = 'img' src = '../pictures/jirayu-koontholjinda-gfraywnI42s-unsplash.jpg' alt = 'foodimg'>
-    </div>
-    <div class = 'card'>
-        <img class = 'img' src = '../pictures/andres-medina-eGPlT_RXzi8-unsplash.jpg' alt = 'foodimg'>
-    </div>
-  </div> --->
-  
 
-  <div class="img-with-text">
-    <img style="width: 500%;" src="/Volumes/USB DRIVE/Sem 2/ID/ASG1_Stuff/ASG1_test code/Img/Porsche2 pic.png" alt="sometext" />
-    <h1>Some text</h1>
-</div>
+        <br>
+        <div>
+            <label class = label for = 'Date'>
+                Date:
+                
+                <input type = 'date' id = 'Date' name = 'date' required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for = 'Time' class = 'label'>
+                Time:
+                
+                <input type = 'time' name = 'time' id = 'Time' required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <input class="sub" type="submit" value="Submit">
+        </div>
+    </form>
+
+    <script src="reserve.js">
+    </script>
+</body>
+</html>
 
 
 

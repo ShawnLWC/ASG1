@@ -44,9 +44,13 @@
   background-size: cover;
   max-width: 100%;
   height: 265px;
-  padding: 20px;
+  padding: 30px;
 }
 
+.img4:hover{
+  /* box-shadow: rgba(2,8,20,0.1) 0px 0.35em 1.175em, rgba(2,8,20,0.1) 0px 0.175em 0.5em; */
+  transform: translateY(-3px) scale(1.2);
+}
 
 .background-image{
     background-repeat: no-repeat;
@@ -109,8 +113,8 @@ display: block;
   margin: 30px;
   font-family:'Montserrat', sans-serif;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 52%;
+  left: 42%;
   transform: translate(-80%, -30%);
   font-size: 18px;
 }
@@ -169,26 +173,9 @@ display: block;
 
 .test{
   position: absolute;
-  left: 38px;
   padding: 5px;
-  bottom: -62%;
-  left: 42%;
-}
-
-.test2{
-  position: absolute;
-  left: 38px;
-  padding: 5px;
-  bottom: 0%;
-  left: 15%;
-}
-
-.test3{
-  position: absolute;
-  left: 10px;
-  padding: 5px;
-  top: 200%;
-  left: 73.5%;
+  bottom: -64%;
+  left: 43%;
 }
 
 .description{
@@ -225,66 +212,3 @@ display: block;
 
 
 
-
-
-
-/* testing */
-
-.flex-container{
-  flex-basis: auto;
-  display: flex;
-  flex-flow:column wrap;
-  flex-direction: row;
-  /* border: aqua solid 15px;  */
-}
-
-.flex-container{
-  justify-content: space-evenly;
-}
-
-.info{
-  color: white;
-  /* padding-left: 50px; */
-}
-
-.heading{
-  text-decoration: underline;
-  /* padding: 30px; */
-  /* padding-left: 50px; */
-  color: #daa46b;
-} 
-
-
-
-
-.img_reel{
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-  grid-auto-rows: 240px;
-}
-
-.img{
-  max-width: 100%;
-  height: auto;
-}
-
-.card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* background: #353535; */
-  font-size: 3rem;
-  color: #fff;
-  /* box-shadow: rgba(3,8,20,0.1) 0px 0.15rem 0.5rem, rgba(2,8,20,0.1) 0px 0.075rem 0.175rem; */
-  height: 100%;
-  width: 100%;
-  border-radius: 4px;
-  transition: all 500ms;
-  overflow: hidden;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
