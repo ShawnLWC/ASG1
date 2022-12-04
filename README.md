@@ -1,6 +1,3 @@
-# 4wheels
-4Wheels is a Car retailer shop which aims to sell all types of cars from new to second hand, and traditional gas cars to electric cars to suit all types of consumers. Our goal is to have people find their dream cars here at an affordable price.
-
 # 4Wheels
 ## Background Information
 4Wheels is a fictional car retailer shop that sells cars at competitive prices. We aim to sell all types of cars from new to used cars, and traditional gas to new electric cars. Our hope is for you to find your dream everyday drive or even your dream car here at 4Wheels. 
